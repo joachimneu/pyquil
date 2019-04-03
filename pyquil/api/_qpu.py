@@ -160,7 +160,7 @@ support at support@rigetti.com.""")
         else:
             bitstrings = None
 
-        self._bitstrings = bitstrings
+        self._memory_results = {"ro": bitstrings}
         self._last_results = results
         return self
 
